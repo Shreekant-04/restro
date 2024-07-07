@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-container">
+        <div class="nav-brand">Logo</div>
+        <div class="nav-toggle" id="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul id="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#services">Product</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="login-page">
+          <a href="./login-page/index.html" target="_blank" class="login-page"
+            >SignUp/SignIn</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <div class="content">
+      <section id="home">
+        <img src="./Masala Dosa.png" alt="hero-image" class="hero-image">
+        
+      </section>
+      <section class="about-section" id="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to <strong>Your Restaurant Name</strong>, where we offer an exceptional dining experience. Our chefs use the freshest ingredients to craft delicious and innovative dishes that will tantalize your taste buds. We pride ourselves on our warm and inviting atmosphere, perfect for any occasion.</p>
+            <p>Since our opening, we have been dedicated to providing top-notch service and culinary excellence. Our menu features a variety of options, from classic favorites to unique creations, ensuring there is something for everyone to enjoy.</p>
+            <p>We are passionate about food and committed to making every visit memorable. Thank you for choosing <strong>Your Restaurant Name</strong>. We look forward to serving you!</p>
+        </div>
+    </section>
+
+      <section id="services">
+        <h1>Services</h1>
+        <article class="items"></article>
+        
+      </section>
+      <section id="contact">
+        <section class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions, comments, or would like to make a reservation, please get in touch with us using the information below. We look forward to hearing from you!</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Address</h3>
+                        <p>123 Main Street, Anytown, USA</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p>(123) 456-7890</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>info@yourrestaurant.com</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form action="#" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+        
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-section">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-item">
+                        <h3>About Us</h3>
+                        <p>Welcome to <strong>Your Restaurant Name</strong>, where we offer an exceptional dining experience. Our chefs use the freshest ingredients to craft delicious and innovative dishes that will tantalize your taste buds.</p>
+                    </div>
+                    <div class="footer-item">
+                        <h3>Contact Info</h3>
+                        <p><strong>Address:</strong> 123 Main Street, Anytown, USA</p>
+                        <p><strong>Phone:</strong> (123) 456-7890</p>
+                        <p><strong>Email:</strong> info@yourrestaurant.com</p>
+                    </div>
+                    <div class="footer-item">
+                        <h3>Follow Us</h3>
+                        <ul class="social-media">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Your Restaurant Name. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        
+        
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
